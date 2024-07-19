@@ -1,5 +1,11 @@
+import RouterReact from "./RouterReact";
+
 function App() {
-  return <div className="bg-orange-500">Home</div>;
+  return (
+    <div>
+      <RouterReact />
+    </div>
+  );
 }
 
 export default App;
