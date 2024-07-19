@@ -3,13 +3,11 @@ import HomePage from "./pages/HomePage";
 
 const RouterReact = () => {
   return (
-    <div>
-      <Router>
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-        </Routes>
-      </Router>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+      </Routes>
+    </Router>
   );
 };
 

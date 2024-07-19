@@ -1,5 +1,11 @@
+import HeroTop from "../components/marketing/pageSections/HeroTop";
+
 const HomePage = () => {
-  return <div>Home</div>;
+  return (
+    <>
+      <HeroTop />
+    </>
+  );
 };
 
 export default HomePage;
