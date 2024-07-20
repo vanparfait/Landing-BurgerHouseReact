@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 const Button = ({ titre, className }) => {
   return (
     <button
@@ -6,6 +7,11 @@ const Button = ({ titre, className }) => {
       {titre}
     </button>
   );
+};
+
+Button.propTypes = {
+  className: PropTypes.node.isRequired,
+  titre: PropTypes.node.isRequired,
 };
 
 export default Button;

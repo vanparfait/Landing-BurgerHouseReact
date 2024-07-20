@@ -22,8 +22,6 @@ const Header = () => {
             titre="Connexion"
             className={"bg-secondary hover:bg-primary"}
           />
-
-          {/* <div>ccccc</div> */}
         </div>
       </div>
     </div>
