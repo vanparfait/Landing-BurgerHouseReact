@@ -8,6 +8,9 @@ export default {
         secondary: "#3d2514",
         redPrimary: "#BF2222",
       },
+      fontFamily: {
+        secondary: ["Alfa Slab One"],
+      },
     },
   },
   plugins: [],
