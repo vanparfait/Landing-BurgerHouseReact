@@ -8,7 +8,7 @@ const Header = () => {
       <div className="w-full">
         <img src={Logo} alt="burger-house" className="w-64" />
       </div>
-      <div className="w-full text-secondary flex items-center flex-col">
+      <div className="w-full text-secondary">
         <div className="flex items-center justify-end">
           <img src={Icone} alt="click And Collect" className="w-5 h-5 mr-2" />
           <span>Commandez votre repas en ligne</span>
