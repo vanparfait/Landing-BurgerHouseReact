@@ -1,5 +1,6 @@
 import Produit from "../../../assets/images/HeroTop/burger-hero-top.png";
 import bgFood from "../../../assets/images/background/bg-food.jpg";
+import Button from "../../elements/Button";
 import Container from "../../elements/Container";
 import Header from "./Header";
 
@@ -32,6 +33,12 @@ const HeroTop = () => {
               </h2>
             </div>
           </div>
+          <Button
+            titre="Creer mon compte"
+            color="secondary"
+            theme="big"
+            className="mt-5"
+          />
         </Container>
       </div>
     </div>

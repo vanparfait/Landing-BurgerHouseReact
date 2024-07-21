@@ -5,8 +5,11 @@ export default {
     extend: {
       colors: {
         primary: "#FFC045",
+        primaryHover: "#F5B029",
         secondary: "#3d2514",
+        secondaryHover: "#231105",
         redPrimary: "#BF2222",
+        redPrimaryHover: "#990E8E",
       },
       fontFamily: {
         secondary: ["Alfa Slab One"],

@@ -16,11 +16,16 @@ const Header = () => {
         <div className="flex items-center justify-end">
           <Button
             titre="Inscription"
-            className={"bg-primary hover:bg-secondary"}
+            className="mr-3 tracking-widest"
+            //className={"bg-primary hover:bg-secondary"}
+            color=""
+            theme=""
           />
           <Button
             titre="Connexion"
-            className={"bg-secondary hover:bg-primary"}
+            className="tracking-widest"
+            color="secondary"
+            theme=""
           />
         </div>
       </div>
