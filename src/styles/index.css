@@ -22,3 +22,6 @@ body {
   background-repeat: no-repeat;
   background-color: rosybrown;
 } */
+.shadowTitleSecondary {
+  text-shadow: 3px 3px #fee7ba;
+}

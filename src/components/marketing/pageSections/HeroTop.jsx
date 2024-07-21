@@ -19,12 +19,26 @@ const HeroTop = () => {
               alt="un menu hamburger avec frites et coca-cola"
               className="absolute -top-64 right-0 w-6/12 z-0"
             />
+
+            <div className="absolute right-80 top-40 bg-redPrimary w-40 h-40 p-3  rounded-full">
+              <div className="w-full h-full rounded-full  text-white border-2 border-dashed border-white flex items-center justify-center">
+                <div className="text-center">
+                  <span className="block font-extrabold">
+                    <span className="text-5xl">5</span>.49$
+                  </span>
+                  <span className="tracking-widest uppercase text-sm">
+                    seulement
+                  </span>
+                </div>
+              </div>
+            </div>
+
             <div className="text-secondary uppercase relative z-10">
               <h1 className="mb-4 font-semibold">
                 {" "}
                 C&apos;est le moment de gouter au bon gout des hamburgers.
               </h1>
-              <h2 className="font-secondary">
+              <h2 className="font-secondary shadowTitleSecondary">
                 <span className="text-8xl block">Burger</span>{" "}
                 <span className="text-6xl mr-3">House</span>
                 <span className="text-4xl">
