@@ -24,7 +24,7 @@ const HeroTop = () => {
               <div className="w-full h-full rounded-full  text-white border-2 border-dashed border-white flex items-center justify-center">
                 <div className="text-center">
                   <span className="block font-extrabold">
-                    <span className="text-5xl">5</span>.49$
+                    <span className="text-5xl">5</span>.48$
                   </span>
                   <span className="tracking-widest uppercase text-sm">
                     seulement
