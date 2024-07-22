@@ -1,5 +1,6 @@
 import Container from "../../elements/Container";
 import Heading from "../../elements/displayTitles/Heading";
+import HeadingBurgerImg from "../../elements/displayTitles/HeadingBurgerImg";
 import HeadingTitle from "../../elements/displayTitles/HeadingTitle";
 
 const Products = () => {
@@ -15,6 +16,7 @@ const Products = () => {
         veritatis a voluptatibus, sapiente odit, corporis optio facere voluptas
         perferendis cupiditate maxime iste.
       </p>
+      <HeadingBurgerImg />
     </Container>
   );
 };
