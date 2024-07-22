@@ -46,7 +46,6 @@ const LastProducts = () => {
           </div>
         </div>
       </div>
-      ;
     </Container>
   );
 };
