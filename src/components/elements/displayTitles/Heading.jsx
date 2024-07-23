@@ -1,8 +1,15 @@
 import PropTypes from "prop-types";
 
-const Heading = ({ children, theme, display, variant }) => {
-  const classDefault = "uppercase mt-5";
-  let font, color;
+const Heading = ({
+  children,
+  theme,
+  display,
+  variant,
+  alignement,
+  className,
+}) => {
+  const classDefault = "uppe";
+  let font, color, align;
   switch (theme) {
     case "secondary":
       font = "font-secondary";
@@ -19,22 +26,45 @@ const Heading = ({ children, theme, display, variant }) => {
       color = "text-secondary";
   }
 
+  switch (alignement) {
+    case "center":
+      align = "justify-center";
+      break;
+    case "right":
+      align = "justify-end";
+      break;
+    default:
+      align = "justify-start";
+  }
+
   switch (variant) {
     case "h3":
       return (
-        <div className="flex items-center justify-center my-5">
-          <h3 className={`${classDefault} ${font} ${color} text-2xl`}>
+        <div className={`${align} flex`}>
+          <h3
+            className={`${classDefault} ${className} ${font} ${color} text-2xl`}
+          >
+            {children}
+          </h3>
+        </div>
+      );
+    case "h4":
+      return (
+        <div className={`${align} flex`}>
+          <h3
+            className={`${classDefault} ${className} ${font} ${color} text-lg`}
+          >
             {children}
           </h3>
         </div>
       );
     default:
       return (
-        <div className="flex items-center justify-center my-5">
+        <div className={`${align} flex`}>
           <h2
             className={`${
               theme === "secondary" ? "text-5xl" : "text-3xl"
-            }  ${classDefault} ${font} ${color} `}
+            }  ${classDefault} ${className} ${font} ${color} `}
           >
             {children}
           </h2>
@@ -45,9 +75,11 @@ const Heading = ({ children, theme, display, variant }) => {
 
 Heading.propTypes = {
   children: PropTypes.node.isRequired,
-  display: PropTypes.node.isRequired,
-  variant: PropTypes.node.isRequired,
-  theme: PropTypes.node.isRequired,
+  display: PropTypes.string.isRequired,
+  variant: PropTypes.string.isRequired,
+  theme: PropTypes.string.isRequired,
+  className: PropTypes.string.isRequired,
+  alignement: PropTypes.node.isRequired,
 };
 
 export default Heading;

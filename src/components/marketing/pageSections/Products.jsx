@@ -7,8 +7,12 @@ const Products = () => {
   return (
     <Container>
       <HeadingTitle variant="h3">toujours des delicieux burgers</HeadingTitle>
-      <Heading variant="h3" theme="secondary" display="gray">
-        choisissez et savourez
+      <Heading
+        theme="primary"
+        alignement="center"
+        className="my-5 text-primary"
+      >
+        CHOISISSEZ ET SAVOUREZ
       </Heading>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit
