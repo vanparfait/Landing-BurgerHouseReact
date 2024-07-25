@@ -21,7 +21,7 @@ const Booking = () => {
         <img
           src={Assiette}
           alt="une assiette d'hamburgers et de frites"
-          className="absolute -bottom-52 -right-80"
+          className="absolute -bottom-28 -right-80"
         />
         <div className="max-w-3xl mx-auto px-10 py-20">
           <Heading variant="h3" alignement="center" className="uppercase">
