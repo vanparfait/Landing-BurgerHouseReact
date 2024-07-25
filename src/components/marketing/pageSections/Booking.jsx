@@ -90,12 +90,12 @@ const Booking = () => {
             </div>
             <div>
               <label htmlFor="repas" className="invisible">
-                Reservez votre repas
+                Trouvez une table
               </label>
               <input
                 name="repas"
                 type="button"
-                value={"Reservez votre repas"}
+                value={" Trouvez une table"}
                 className="bg-redPrimary hover:bg-redPrimary w-full text-white font-secondary text-center tracking-widest uppercase py-5 rounded-md animate cursor-pointer"
               />
             </div>

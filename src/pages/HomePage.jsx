@@ -12,6 +12,7 @@ const HomePage = () => {
       <Products />
       <Event />
       <Booking />
+      <HomePage />
     </>
   );
 };
