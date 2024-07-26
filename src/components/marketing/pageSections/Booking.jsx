@@ -53,7 +53,7 @@ const Booking = () => {
                 name="mail"
                 id="mail"
                 autoComplete="off"
-                className="focus:ring-primary focus:border-primary focus:border block w-full border-gray-400 rounded-md p-5"
+                className="focus:ring-primary focus:border-primary border focus:border block w-full border-gray-400 rounded-md p-5"
                 placeholder="JohnDoe@gmail.com"
               />
             </div>
