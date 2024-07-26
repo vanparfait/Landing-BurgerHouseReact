@@ -47,7 +47,7 @@ const Footer = () => {
           </div>
           <div className="relative z-10  flex items-center justify-between">
             <div className="uppercase font-extrabold tracking-tighter text-sm">
-              @ Burger house 2021. All rights reserved.
+              @ Burger house 2024. All rights reserved.
             </div>
             <div className="flex">
               <div>
